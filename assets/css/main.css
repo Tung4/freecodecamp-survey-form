@@ -88,6 +88,7 @@ button {
 .container {
   width: 100%;
   margin: 3.125rem auto 0 auto;
+  padding: 0.9375rem;
 }
 
 .header {
@@ -168,6 +169,12 @@ form {
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+.submit-button:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
 }
 
 @media (min-width: 768px) {
